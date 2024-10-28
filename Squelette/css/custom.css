@@ -176,30 +176,29 @@ span {
 }
 
 footer {
+  background-color: var(--primary-color);
   display: flex;
-  background-color: #f74c3c;
-  align-items: flex-end;
-  padding-top: 150px;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 0 1rem 0;
   .container {
     display: flex;
-    justify-content: space-between;
-    
-  }
-  div img {
-    padding-left: 250px;
-    padding-bottom: 40px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+
   }
 }
+
 
 .under{
     text-decoration: underline;
     text-underline-offset: 10px;
-    color:#d9534f;
+    color:var(--primary-color);
 }
 
 .orange{
-    color:#d9534f;
+    color:var(--primary-color);
 }
 
 .arrow-up {
